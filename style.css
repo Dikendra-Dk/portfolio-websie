@@ -112,6 +112,9 @@ header ul a:hover{
     align-items: center;
     justify-content: space-between;
 }
+a{
+    color: #fff !important;
+}
 .hero-info{
     position: absolute;
     left: 5%;
