@@ -87,7 +87,7 @@ header ul a:hover{
     transition: 0.5s;
 }
 a{
-    color: white
+    color: white;
 }
 .box-icons p:hover{
     background-color: #72a1de;
