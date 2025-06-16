@@ -86,6 +86,9 @@ header ul a:hover{
     cursor: pointer;
     transition: 0.5s;
 }
+a{
+    color: white
+}
 .box-icons p:hover{
     background-color: #72a1de;
     color: black;
@@ -112,9 +115,7 @@ header ul a:hover{
     align-items: center;
     justify-content: space-between;
 }
-a{
-    color: white
-}
+
 .hero-info{
     position: absolute;
     left: 5%;
