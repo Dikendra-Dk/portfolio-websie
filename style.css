@@ -113,7 +113,7 @@ header ul a:hover{
     justify-content: space-between;
 }
 a{
-    color: #fff !important;
+    color: white;
 }
 .hero-info{
     position: absolute;
