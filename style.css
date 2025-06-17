@@ -1042,23 +1042,23 @@ a{
 
 }
 .contact-inputs{
-    width: 400px;
+    width: 350px;
     height: 50px;
     border: none;
     outline: none;
     padding-left: 25px;
     font-weight: 500;
-    color: green;
+    color: #666;
     border-radius: 50px;
 
 }
 .contact-left textarea{
-    height: 140px;
+    height: 100px;
     padding: 15px;
     border-radius: 20px;
 }
 .contact-inputs:focus{
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(162, 255, 0);
     transition: all 0.3s ease-in-out;
 }
 .contact-inputs::placeholder{
