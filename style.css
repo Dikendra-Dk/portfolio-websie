@@ -1014,3 +1014,66 @@ a{
         gap: 10px;
     }
 }
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contact-left-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: antiquewhite;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+
+}
+.contact-left textarea{
+    height: 140px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid antiquewhite;
+    transition: all 0.3s ease-in-out;
+}
+.contact-inputs::placeholder{
+    color: #666;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
