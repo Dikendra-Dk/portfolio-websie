@@ -1283,6 +1283,9 @@ header ul a:hover{
     cursor: pointer;
     transition: all 0.3s ease-in-out; 
 }
+a{
+    color: white;
+}
 
 
 
